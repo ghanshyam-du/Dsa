@@ -8,7 +8,7 @@ public class Main {
         list.insertFirst(17);
         list.insertLast(18);
         list.insertMiddle(26, 3);
-        list.triversal(head);
+        // list.triversal(head);
 
         list.display();
     }
