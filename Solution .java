@@ -30,14 +30,14 @@ public class Solution {
         // Test Case 1
         String input1 = "a#b%*";
         String output1 = sol.processStr(input1);
-        System.out.println("Input: " + input1);
-        System.out.println("Output: " + output1); // Expected: "ba"
+        System.out.println(" Input: " + input1);
+        System.out.println(" Output: " + output1); // Expected: "ba"
 
         // Test Case 2
         String input2 = "z*#";
         String output2 = sol.processStr(input2);
-        System.out.println("Input: " + input2);
-        System.out.println("Output: " + output2); // Expected: ""
+        System.out.println(" Input: " + input2);
+        System.out.println(" Output: " + output2); // Expected: ""
 
         // Additional Test Case
         String input3 = "ab#%c*";
