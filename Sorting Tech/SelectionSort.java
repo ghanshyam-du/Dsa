@@ -4,11 +4,11 @@ public class SelectionSort {
     public static void main(String args[]){
         int[] arr = {7,5,9,2,8};
        
-        for(int i = 0; i< arr.length; i++){
+        for(int i = 0; i< arr.length ; i++){
             int mini = i;
 
-            for(int j = i + 1; j < arr.length; j++){
-                if(arr[j] < arr[mini ]){
+            for(int j = i + 1; j < arr.length ; j++){
+                if(arr[j] < arr[mini]){
                     mini = j;
                 }
             }
@@ -18,7 +18,7 @@ public class SelectionSort {
         }
 
         for(int i = 0; i< arr.length; i++){
-            System.out.print( arr[i]);
+            System.out.print( arr[i] );
         }
 
        
