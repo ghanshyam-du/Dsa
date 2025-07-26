@@ -9,7 +9,7 @@ public class SelectionSort {
 
             for(int j = i + 1; j < arr.length ; j++){
                 if(arr[j] < arr[mini]){
-                    min = j;
+                    mini = j;
                 }
             }
             int temp = arr[mini];
