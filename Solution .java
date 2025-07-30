@@ -30,8 +30,8 @@ public class Solution {
         // Test Case 1
         String input1 = "a#b%*";
         String output1 = sol.processStr(input1);
-        System.out.println(" Input:" + input1);
-        System.out.println(" Output:" + output1); // Expected: "ba"
+        System.out.println("Input:" + input1);
+        System.out.println("Output:" + output1); // Expected: "ba"
 
         // Test Case 2
         String input2 = "z*#";
