@@ -54,7 +54,7 @@ public class linkedlist{
             System.out.print(temp.val + "-> ");
             temp = temp.next;
         }
-        System.out.print("END");
+        System.out.print(" END ");
     }
 
     public void triversal(Node head){
