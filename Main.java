@@ -1,6 +1,5 @@
 public class Main {
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         linkedlist list = new linkedlist();
         list.insertFirst(3);
         list.insertFirst(2);
