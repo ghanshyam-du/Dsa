@@ -14,9 +14,9 @@ public class Solution {
                     result.deleteCharAt(result.length() - 1);
                 }
             } else if (ch == '#') {
-                result.append(result.toString());  // duplicate and append
+                result.append(result.toString()); // duplicate and append
             } else if (ch == '%') {
-                result.reverse();  // reverse the result
+                result.reverse(); // reverse the result
             }
         }
 
