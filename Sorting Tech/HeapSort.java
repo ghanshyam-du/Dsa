@@ -43,7 +43,7 @@ public class HeapSort {
             arr[0] = arr[i];
             arr[i] = temp;
 
-            // Heapify reduced heap
+            // Heapify reduced heap.
             heapify(arr, i, 0);
         }
     }
