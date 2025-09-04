@@ -1,0 +1,6 @@
+Q1)  Array Reverse -- done
+Q2)  Maximum and minimum of an array using minimum number of comparisons -- done
+Q3)  Kth Smallest -- done
+Q4)  Sort 0s, 1s and 2s -- done  (Here i have Learned the DUTCH NATIONAL FLAG ALGO)
+Q5)  Move all negative numbers to beginning and positive to end with constant extra space -- done 
+Q6)  Union of Arrays with Duplicates -- done
