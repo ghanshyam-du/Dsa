@@ -3,17 +3,26 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    let map = {};
-    for(let i = 0; i<= nums.length; i++){
-        map[nums[i]] = i;
-    }
+var twoSum = function (nums, target) {
+    let start = 0;
+    let end = nums.length-1;
 
-    for(let i = 0; i<= nums.length ; i++){
-        let value = target - nums[i];
+    while (start < end) {
+        let sum = nums[start] + nums[end];
 
-        if(map[value] && map[value] != i){
-            return [i+1, map[value]+1]
+        if (sum == target) {
+            return [start +1, end + 1];
         }
+        // let mid = start + (end - start) / 2;
+
+        else if (sum > target) {
+            end--;
+        }
+        else{
+            start++;
+        }
+
+
+
     }
 };
