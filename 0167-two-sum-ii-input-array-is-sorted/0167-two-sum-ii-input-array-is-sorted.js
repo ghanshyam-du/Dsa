@@ -13,7 +13,7 @@ var twoSum = function (nums, target) {
         if (sum == target) {
             return [start +1, end + 1];
         }
-        // let mid = start + (end - start) / 2;
+    
 
         else if (sum > target) {
             end--;
