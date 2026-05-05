@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
+| [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## String Matching
 |  |
 | ------- |
@@ -53,4 +54,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ghanshyam-du/Dsa/tree/master/0020-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
