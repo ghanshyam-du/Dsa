@@ -72,4 +72,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0707-design-linked-list) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
