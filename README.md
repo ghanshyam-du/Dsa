@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## String Matching
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Recursion
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Bit Manipulation
 |  |
