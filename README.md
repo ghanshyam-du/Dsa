@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ghanshyam-du/Dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/ghanshyam-du/Dsa/tree/master/0217-contains-duplicate) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0540-single-element-in-a-sorted-array) |
+| [0643-maximum-average-subarray-i](https://github.com/ghanshyam-du/Dsa/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/ghanshyam-du/Dsa/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
@@ -129,4 +130,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0102-binary-tree-level-order-traversal) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/ghanshyam-du/Dsa/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
