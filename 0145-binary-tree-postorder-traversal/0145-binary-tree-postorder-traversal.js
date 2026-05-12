@@ -10,19 +10,35 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var postorderTraversal = function(root) {
-    let ans = [];
+var postorderTraversal = function (root) {
+    if (!root) return [];
 
-    function traversal(crnt){
-        //left -> right -> root
+    let s1 = [root];
+    let s2 = [];
 
-        if(!crnt) return;
+    while (s1.length) {
+        let curr = s1.pop();
+        s2.push(curr);
+       curr.left &&  s1.push(curr.left);
+       curr.right && s1.push(curr.right);
+    }
+     let ans = [];
+    while(s2.length){
 
-        traversal(crnt.left);
-        traversal(crnt.right);
-        ans.push(crnt.val);
+        ans.push(s2.pop().val);
+       
     }
 
-    traversal(root);
+    // function traversal(crnt){
+    //     //left -> right -> root
+
+    //     if(!crnt) return;
+
+    //     traversal(crnt.left);
+    //     traversal(crnt.right);
+    //     ans.push(crnt.val);
+    // }
+
+    // traversal(root);
     return ans;
 };
