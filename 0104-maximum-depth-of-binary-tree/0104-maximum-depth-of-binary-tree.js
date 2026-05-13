@@ -12,16 +12,25 @@
  */
 var maxDepth = function(root) {
     if(!root) return 0;
-    let maxDep = 0;
 
-    function traversal(crnt, level){
-        maxDep = Math.max(maxDep, level);
-       crnt.left &&  traversal(crnt.left, level+1);
-       crnt.right &&  traversal(crnt.right, level+1);
+    let leftMax = maxDepth(root.left);
+    let rightMax = maxDepth(root.right);
+
+    return 1 + Math.max(leftMax, rightMax);
+
+
+
+    // if(!root) return 0;
+    // let maxDep = 0;
+
+    // function traversal(crnt, level){
+    //     maxDep = Math.max(maxDep, level);
+    //    crnt.left &&  traversal(crnt.left, level+1);
+    //    crnt.right &&  traversal(crnt.right, level+1);
        
-    }
+    // }
 
-    traversal(root, 1);
-    return maxDep;
+    // traversal(root, 1);
+    // return maxDep;
     
 };
