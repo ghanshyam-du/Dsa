@@ -11,18 +11,26 @@
  * @return {number}
  */
 var maxDepth = function(root) {
-    if(!root) return 0;
-    let Mdepth = 0;
+    if(!root) return 0;    // this is bottom up approach 
 
-    var traverse = (curr, depth)=>{
-        Mdepth = Math.max(Mdepth, depth);
+    let leftM = maxDepth(root.left);
+    let rightM = maxDepth(root.right); 
+     
+    return 1 + Math.max(leftM, rightM);
 
-        curr.left && traverse(curr.left, depth+1);
-        curr.right && traverse(curr.right, depth+1);
 
-    }
-    traverse(root, 1);
+    // if(!root) return 0;  this is the top down approch 
+    // let Mdepth = 0;
 
-    return Mdepth;
+    // var traverse = (curr, depth)=>{
+    //     Mdepth = Math.max(Mdepth, depth);
+
+    //     curr.left && traverse(curr.left, depth+1);
+    //     curr.right && traverse(curr.right, depth+1);
+
+    // }
+    // traverse(root, 1);
+
+    // return Mdepth;
     
 };
