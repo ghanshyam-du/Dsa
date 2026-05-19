@@ -10,28 +10,19 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var maxDepth = function (root) {
-    // Bottom-up approach 
-    if (!root) return 0;
+var maxDepth = function(root) {
+    if(!root) return 0;
+    let Mdepth = 0;
 
-    let leftMax = maxDepth(root.left);
-    let rightMax = maxDepth(root.right);
+    var traverse = (curr, depth)=>{
+        Mdepth = Math.max(Mdepth, depth);
 
-    return 1 + Math.max(leftMax, rightMax);
+        curr.left && traverse(curr.left, depth+1);
+        curr.right && traverse(curr.right, depth+1);
 
+    }
+    traverse(root, 1);
 
-    // Top-Down approach
-    // if(!root) return 0;
-    // let maxDep = 0;
-
-    // function traversal(crnt, level){
-    //     maxDep = Math.max(maxDep, level);
-    //    crnt.left &&  traversal(crnt.left, level+1);
-    //    crnt.right &&  traversal(crnt.right, level+1);
-
-    // }
-
-    // traversal(root, 1);
-    // return maxDep;
-
+    return Mdepth;
+    
 };
