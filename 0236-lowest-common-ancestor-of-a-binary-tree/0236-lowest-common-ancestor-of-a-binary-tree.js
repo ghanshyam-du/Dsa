@@ -26,14 +26,9 @@ var lowestCommonAncestor = function(root, p, q) {
         if(count == 2 && !lca){
             lca = curr;
         }
-
         return count;
-
     }
     traverse(root);
-
-
-
     return lca;
     
 };
