@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0643-maximum-average-subarray-i](https://github.com/ghanshyam-du/Dsa/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/ghanshyam-du/Dsa/tree/master/0704-binary-search) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Hash Table
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ghanshyam-du/Dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/ghanshyam-du/Dsa/tree/master/0242-valid-anagram) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -173,4 +175,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/ghanshyam-du/Dsa/tree/master/0643-maximum-average-subarray-i) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 <!---LeetCode Topics End-->
