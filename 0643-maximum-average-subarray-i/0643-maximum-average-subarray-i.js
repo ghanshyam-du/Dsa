@@ -4,7 +4,7 @@
  * @return {number}
  */
 var findMaxAverage = function (nums, k) {
-    if(nums.length == 1) return nums[0]/k;
+    // if(nums.length == 1) return nums[0]/k;
     let sum = 0;
     let max = 0;
 
