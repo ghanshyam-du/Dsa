@@ -11,31 +11,22 @@
  * @return {number[]}
  */
 var inorderTraversal = function(root) {
+    if(!root) return [];
     let ans = [];
-    let stack = [];
-    let crnt = root;
+    let stk = [];
+    let curr = root;
 
-    while(crnt || stack.length){
-        while(crnt){
-         stack.push(crnt);
-           crnt = crnt.left;
+
+    while(curr || stk.length){
+
+        while(curr){
+            stk.push(curr);
+            curr = curr.left;
         }
-        crnt = stack.pop();
-        ans.push(crnt.val);
-        crnt = crnt.right;
+
+        curr = stk.pop();
+        ans.push(curr.val);
+        curr = curr.right;
     }
-
-    // function traversal(crnt){
-    //     //left -> root -> right
-    //     if(!crnt) return;
-
-    //     traversal(crnt.left);
-    //     ans.push(crnt.val);
-    //     traversal(crnt.right);
-
-    // }
-    // traversal(root);
-
     return ans;
-    
 };
