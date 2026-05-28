@@ -13,20 +13,29 @@
 var inorderTraversal = function(root) {
     if(!root) return [];
     let ans = [];
-    let stk = [];
-    let curr = root;
+    // let stk = [];
+    // let curr = root;
 
 
-    while(curr || stk.length){
+    // while(curr || stk.length){
 
-        while(curr){
-            stk.push(curr);
-            curr = curr.left;
-        }
+    //     while(curr){
+    //         stk.push(curr);
+    //         curr = curr.left;
+    //     }
 
-        curr = stk.pop();
+    //     curr = stk.pop();
+    //     ans.push(curr.val);
+    //     curr = curr.right;
+    // }
+
+    function traverse(curr){
+        if(!curr) return ;
+
+       curr.left &&  traverse(curr.left);
         ans.push(curr.val);
-        curr = curr.right;
+       curr.right && traverse(curr.right);
     }
+    traverse(root);
     return ans;
 };
