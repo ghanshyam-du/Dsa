@@ -12,27 +12,17 @@
  */
 var preorderTraversal = function(root) {
     if(!root) return [];
-   let arr = [];
-   let stack = [root];
+    let stack = [root];
+    let ans = [];
 
-   while(stack.length){
-    let crnt = stack.pop();
-    arr.push(crnt.val);
-    crnt.right && stack.push(crnt.right);
-    crnt.left &&  stack.push(crnt.left);
-   }
+    while(stack.length){
+        let curr = stack.pop();
+        ans.push(curr.val);
 
-    
+       curr.right && stack.push(curr.right);
+        curr.left && stack.push(curr.left);
+    }
 
-    // function traversal(crnt){
-
-    //     if(!crnt)  return;
-    //     ans.push(crnt.val);
-    //     traversal(crnt.left);
-    //     traversal(crnt.right);
-    // }
-
-    // traversal(root);
-    return arr;
+    return ans;
     
 };
