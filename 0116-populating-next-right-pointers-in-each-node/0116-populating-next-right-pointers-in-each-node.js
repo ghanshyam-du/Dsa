@@ -12,26 +12,22 @@
  * @param {_Node} root
  * @return {_Node}
  */
-var connect = function(root) {
-   if(!root) return root;
-   
-   let traverse= (crnt) =>{
+var connect = function (root) {
+    if (!root) return root;
 
-    if(crnt.left){
-        crnt.left.next = crnt.right;
+    let traverse = (crnt) => {
+        if (crnt.left) {
+            crnt.left.next = crnt.right;
+        }
+        if (crnt.next && crnt.right) {
+            crnt.right.next = crnt.next.left;
+        }
+        crnt.left && traverse(crnt.left);
+        crnt.right && traverse(crnt.right);
     }
-    if(crnt.next && crnt.right){
-        crnt.right.next = crnt.next.left;
-    }
+    traverse(root);
+
+    return root;
 
 
-   crnt.left && traverse(crnt.left);
-   crnt.right && traverse(crnt.right);
-
-   }
-   traverse(root);
-
-   return root;
-   
-    
 };
