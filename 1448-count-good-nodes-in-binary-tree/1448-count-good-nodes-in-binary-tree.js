@@ -11,21 +11,17 @@
  * @return {number}
  */
 var goodNodes = function(root) {
-    let count = 0;
+  let count = 0;
+  function xNode(crnt, max){
 
-    function xNode(crnt, max){
-        if(!crnt) return;
-        if(crnt.val >= max ){
-            count++;
-        }
-        max = Math.max(crnt.val, max);
-
-       crnt.left && xNode(crnt.left, max);
-       crnt.right &&  xNode(crnt.right, max);
-
+    if(crnt.val >= max){
+        count++;
     }
-    xNode(root, root.val);
+    max = Math.max(crnt.val, max);
+    crnt.left && xNode(crnt.left, max);
+    crnt.right && xNode(crnt.right, max);
 
-    return count;
-    
+  }
+  xNode(root, root.val);
+  return count;
 };
