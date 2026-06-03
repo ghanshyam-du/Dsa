@@ -17,7 +17,7 @@ var searchBST = function(root, val) {
     let search = (crnt, val) =>{
 
         if( crnt.val === val){
-            ans =  crnt;
+            ans = crnt;
         }
         else if(crnt.val > val){
             crnt.left && search(crnt.left, val);
