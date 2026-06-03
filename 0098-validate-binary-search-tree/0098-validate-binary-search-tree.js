@@ -12,20 +12,20 @@
  */
 var isValidBST = function(root) {
    
-   let isBST = (crnt, lo, hi) =>{
+   let isBST = (crnt, low, high) =>{
 
     if(!crnt) return true;
-    if((lo != null && crnt.val <= lo) || (hi != null && crnt.val >= hi)){
+
+    if((low != null && crnt.val <= low) || (high != null && crnt.val >= high)){
         return false;
     }
 
-    let isLeft = isBST(crnt.left, lo, crnt.val);
-    let isRight = isBST(crnt.right, crnt.val, hi);
+    let isLeftBST = isBST(crnt.left, low, crnt.val);
+    let isRightBST = isBST(crnt.right, crnt.val, high);
 
-    return isLeft && isRight;
+    return isLeftBST && isRightBST;
 
    }
- 
    return isBST(root, null, null);
     
 };
