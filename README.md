@@ -2,8 +2,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
-|  |
-| ------- | 
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/ghanshyam-du/Dsa/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/ghanshyam-du/Dsa/tree/master/0011-container-with-most-water) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -16,8 +16,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/ghanshyam-du/Dsa/tree/master/0704-binary-search) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/ghanshyam-du/Dsa/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/ghanshyam-du/Dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0142-linked-list-cycle-ii) |
@@ -26,8 +26,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ghanshyam-du/Dsa/tree/master/0242-valid-anagram) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/ghanshyam-du/Dsa/tree/master/0011-container-with-most-water) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ghanshyam-du/Dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0141-linked-list-cycle](https://github.com/ghanshyam-du/Dsa/tree/master/0141-linked-list-cycle) |
@@ -36,66 +36,66 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ghanshyam-du/Dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/ghanshyam-du/Dsa/tree/master/0704-binary-search) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0020-valid-parentheses](https://github.com/ghanshyam-du/Dsa/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ghanshyam-du/Dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0242-valid-anagram](https://github.com/ghanshyam-du/Dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/ghanshyam-du/Dsa/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## String Matching
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ghanshyam-du/Dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/ghanshyam-du/Dsa/tree/master/0011-container-with-most-water) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0020-valid-parentheses](https://github.com/ghanshyam-du/Dsa/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0145-binary-tree-postorder-traversal) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Memoization
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ghanshyam-du/Dsa/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/ghanshyam-du/Dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0142-linked-list-cycle-ii) |
@@ -103,17 +103,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0707-design-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0876-middle-of-the-linked-list) |
 ## Design
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0707-design-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0707-design-linked-list) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0217-contains-duplicate](https://github.com/ghanshyam-du/Dsa/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ghanshyam-du/Dsa/tree/master/0242-valid-anagram) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0100-same-tree) |
@@ -133,8 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0700-search-in-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0100-same-tree) |
@@ -151,8 +151,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0543-diameter-of-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0100-same-tree) |
@@ -172,8 +172,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0700-search-in-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0100-same-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ghanshyam-du/Dsa/tree/master/0102-binary-tree-level-order-traversal) |
@@ -185,14 +185,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0226-invert-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/ghanshyam-du/Dsa/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0219-contains-duplicate-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/ghanshyam-du/Dsa/tree/master/0643-maximum-average-subarray-i) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ghanshyam-du/Dsa/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Binary Search Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0098-validate-binary-search-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/ghanshyam-du/Dsa/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
