@@ -13,25 +13,21 @@
  */
 var kthSmallest = function(root, k) {
 
-    let ans = [];
-    let stk = [];
-    let crnt = root;
+    let count = k;
+    let ans = null
 
-    let traverse = (crnt) =>{
+    let inOrder = (crnt) =>{
+        if(ans !== null) return;
+       crnt.left && inOrder(crnt.left);
+       --count;
 
-        while(crnt || stk.length){
-            while(crnt){
-                stk.push(crnt);
-                crnt = crnt.left;
-            }
+       if(count === 0){
+        ans = crnt.val;
+       }
 
-            crnt = stk.pop();
-            ans.push(crnt.val);
-            crnt = crnt.right;
-        }
-
+        crnt.right && inOrder(crnt.right);
     }
-    traverse(crnt);
-    return ans[k-1];
+    inOrder(root);
+    return ans;
     
 };
