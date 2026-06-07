@@ -13,7 +13,7 @@
 var isValidBST = function(root) {
    
    let isBST = (crnt, low, high) =>{
-
+ 
     if(!crnt) return true;
 
     if((low != null && crnt.val <= low) || (high != null && crnt.val >= high)){
