@@ -10,25 +10,23 @@
  * @param {TreeNode} root
  * @param {number} val
  * @return {TreeNode}
- */ 
-var searchBST = function(root, val) {
+ */
+var searchBST = function (root, val) {
     let ans = null;
-    
+    let search = (crnt, val) => {
 
-    let search = (crnt, val) =>{
-
-        if( crnt.val === val){
+        if (crnt.val === val) {
             ans = crnt;
         }
-        else if(crnt.val > val){
+        else if (crnt.val > val) {
             crnt.left && search(crnt.left, val);
         }
-        else{
-           crnt.right &&  search(crnt.right, val);
+        else {
+            crnt.right && search(crnt.right, val);
         }
 
     }
     search(root, val);
     return ans;
-    
+
 };
