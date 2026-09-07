@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ghanshyam-du/Dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ghanshyam-du/Dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/ghanshyam-du/Dsa/tree/main/0189-rotate-array/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/ghanshyam-du/Dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/ghanshyam-du/Dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0219-contains-duplicate-ii) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ghanshyam-du/Dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ghanshyam-du/Dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ghanshyam-du/Dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/ghanshyam-du/Dsa/tree/main/0189-rotate-array/) | Medium |
 | [0392-is-subsequence](https://github.com/ghanshyam-du/Dsa/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/ghanshyam-du/Dsa/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/ghanshyam-du/Dsa/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/ghanshyam-du/Dsa/tree/main/0189-rotate-array/) | Medium |
 | [0231-power-of-two](https://github.com/ghanshyam-du/Dsa/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/ghanshyam-du/Dsa/tree/master/0509-fibonacci-number) |
 ## Recursion
