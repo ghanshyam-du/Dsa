@@ -4,7 +4,7 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 
- let reverse = function(i, j, nums){
+function reverse(i, j, nums){
     while(i < j){
         let temp = nums[i];
         nums[i] = nums[j];
